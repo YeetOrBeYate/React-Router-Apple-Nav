@@ -7,7 +7,7 @@ function Support(props){
     return(
         <div>
             The Support page
-            <Route path=""></Route>
+            
         </div>
         
     );

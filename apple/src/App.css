@@ -16,8 +16,25 @@
   text-align: center;
   width: 80%;
   margin: 0 auto;
-  color: white;
-  background: black;
+}
+
+.subMenu{
+border:1px solid black;
+width:80%;
+margin: 0 auto;
+}
+
+.menuItem{
+  border:1px solid black;
+  width:80%;
+  margin: 0 auto;
+}
+
+.flexMenu{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
