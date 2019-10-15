@@ -9,6 +9,8 @@ import TV from "./components/TV";
 import Music from "./components/Music";
 import Support from "./components/Support";
 
+const yeet = ['poop','scoop'];
+
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
         <Link to="/music">Music</Link>
         <Link to="/support">Support</Link>
       </div>
-      <Route path="/mac" component={Mac}></Route>
+      <Route path="/mac" component={(props)=><Mac {...props} array = {yeet}/>}></Route>
       <Route path="/ipad" component={IPad}></Route>
       <Route path="/iphone" component={IPhone}></Route>
       <Route path="/watch" component={Watch}></Route>
